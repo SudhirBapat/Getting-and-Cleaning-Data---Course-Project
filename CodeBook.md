@@ -1,8 +1,4 @@
----
-title: "CodeBook"
-output: html_document
----
- 
+
  
 ##Getting and Cleaning Data - Cource Project##
  
@@ -21,9 +17,14 @@ Here I am first listing the different files which are provided in the dataset gi
 
         		
 				
-Activity_labels	- Labels for the various activitie              Variables # 6	
-features_info	- Text Information	                        Variables # none
-features.txt	- Names for the Features given in X_all file    Variables # 561	
+Activity_labels	- Labels for the various activitie              
+Variables # 6	
+
+features_info	- Text Information	                        
+Variables # none
+
+features.txt	- Names for the Features given in X_all file    
+Variables # 561	
 				
 Subject_all	subject_test		        Variables # 2947	
 	        subject_train		        Variables # 7352	
