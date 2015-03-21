@@ -8,13 +8,13 @@ output: html_document
  
  This project required 'data.table' and 'plyr' packages so please install them first
  
- 
+'''{r}
 install.packages ("data.table")
 library (data.table)
 
 install.packages ("plyr")
 library (plyr)
-
+'''
 ### Explanation of the data ###
 Here I am first listing the different files which are provided in the dataset given in the project
 
@@ -38,7 +38,7 @@ As you can see the files link up, the three main files have the same number of r
 In the firsr stage we combine the test and train files to create a single file for each type with 10299 rows. We will also read the Activity and the features file in their own vectors
 
 ### Combining the data ###
-
+'''{r}
 Read and Combine the two parts of the subject_data
 subject_data1 <- read.table ("file path/subject_test.txt")
 subject_data2 <- read.table ("file path/subject_train.txt")
@@ -53,7 +53,7 @@ Read and Combine the two parts of the y files
 y_data1 <- read.table ("file path/y_test.txt")
 y_data2 <- read.table ("file path/y_train.txt")
 y_data <- rbind (y_data1, y_data2)
-
+'''
 
 ### Subseting and giving correct names to the data ###
 
