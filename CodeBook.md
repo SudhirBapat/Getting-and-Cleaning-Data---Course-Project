@@ -25,6 +25,7 @@ Variables # none
 
 features.txt	- Names for the Features given in X_all file    
 Variables # 561	
+
 				
 Subject_all	subject_test		        Variables # 2947	
 	        subject_train		        Variables # 7352	
